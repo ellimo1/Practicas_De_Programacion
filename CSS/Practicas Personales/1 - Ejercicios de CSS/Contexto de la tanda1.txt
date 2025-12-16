@@ -1,0 +1,1 @@
+Estos son 10 ejercicios fáciles para practicar las Hojas de Estilo en Cascada (CSS) y selectores básicos. Todos se pueden hacer con un simple archivo index.html y un archivo styles.css.
