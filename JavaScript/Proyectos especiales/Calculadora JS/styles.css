@@ -1,0 +1,70 @@
+.calculadora{
+    border: solid 3px black;
+    border-radius: 10%;
+    background-color: black;
+    width: 25%;
+    height: 25%;
+    text-align:center;
+    padding:10px;
+}
+.detalles_calculadora{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.panel_solar{
+    background-color:darkgreen;
+    border: solid 2px grey;
+    border-radius: 10%;
+    width: 150px;
+    margin-right: 30px;
+}
+.titulo{
+    color: white;
+}
+input{
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+.visores_superiores{
+    background-color:dimgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15%;
+}
+button{
+    border-radius: 15%;
+}
+.primerosBotones{
+    background-color: yellow;
+    margin:4px;
+    width: 67px;
+}
+.segundosBotones{
+    background-color: orange;
+    margin: 4px;
+}
+.aleatorioBoton{
+    background-color: aquamarine;
+    margin: 4px;
+}
+.ultimosBotones{
+    background-color: darkmagenta;
+    color: white;
+    border: solid 2px black;
+}
+.resultado{
+    background-color:dimgrey;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 15%;
+    margin-bottom: 8px;
+}
+#tercerVisor{
+    border: solid 2px black;
+    background-color: green;
+    width: 85%;
+    margin-left: 30px;
+    color: white;
+}

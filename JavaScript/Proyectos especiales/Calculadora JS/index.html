@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcuadora online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="detalles_calculadora">
+            <p class="panel_solar"></p>
+            <h3 class="titulo">CALCULADORA</h3>
+        </div>
+        
+        <div class="visores_superiores">
+            <input type="number" id="primerVisor">
+            <input type="number" id="segundoVisor">
+        </div>
+
+        <div class="operaciones_basicas">
+            <button class="primerosBotones" onclick="sumar()">+</button>
+            <button class="primerosBotones" onclick="restar()">-</button>
+            <button class="primerosBotones" onclick="multiplicar()">x</button>
+            <button class="primerosBotones" onclick="dividir()">/</button>
+        </div>
+
+        <div class="operaciones_intermedias">
+            <button class="segundosBotones" onclick="potenciar()">Potencia</button>
+            <button class="segundosBotones" onclick="raiz()">Raiz cuadrada</button>
+            <button class="segundosBotones" onclick="absoluto()">Valor absoluto</button>
+        </div>
+
+        <button class="aleatorioBoton" onclick="aleatorio()">Aleatorio</button>
+
+        <div class="resultado">
+            <h3 id="tercerVisor">--</h3>
+        </div>
+    
+        <div class="botones_redondear">
+            <button class="ultimosBotones" onclick="redondear()">Redondear</button>
+            <button class="ultimosBotones" onclick="redondear_piso()">Redondear hacia abajo</button>
+            <button class="ultimosBotones" onclick="redondear_techo()">Redondear hacia arriba</button>
+        </div>
+       
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
