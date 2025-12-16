@@ -1,3 +1,5 @@
+#Esta es una tanda enfocada en listas, funciones y manejo básico de datos — un paso clave para dominar la lógica en Python.
+
 #1.- Suma de elementos en una lista
 #Crea una lista con numeros definidos por el usuario y muestra la suma total de sus elementos
 """print("Hola bienvenido, necesitamos crear una lista de numeros!")
