@@ -1,3 +1,5 @@
+#Esta es una tanda de 10 ejercicios enfocados en bucles y estructuras de control, diseñados en orden de dificultad gradual.
+
 #1.- Contar hasta un numero
 #Pide al usuario un numero entero y muestra todos los numeros desde 1 hasta ese numero (usando un for)
 """print("Hola, yo cuento todos los numeros que hay hasta el numero que tu escojas.")
@@ -77,8 +79,6 @@ while inicio!=0:
         print(inicio)
         inicio+=1"""
         
-        
-
 #8.- Promedio de notas
 #Pide al usuario cuantas notas desea ingresar,, luego solicita cada nota y al final muestra el promedio.
 """print("Hola, dime cuantas notas quieres que calcule, las notas y yo te dare el promedio.")
