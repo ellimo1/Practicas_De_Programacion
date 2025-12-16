@@ -1,3 +1,5 @@
+#Esta es una serie de 10 ejercicios básicos de Python centrados en strings y tipos de datos primitivos (números, booleanos, cadenas).
+
 #1.- Invertir una cadena
 #Crear un programa que pida al usuario una palabra y muestre esa palabra invertida, ejemplo: "python" -> "nohtyp"
 """print("Hola, soy un inversor de palabras.")
@@ -67,8 +69,8 @@ else:
 
 #10.- Convertir tipos de datos.
 #Pide un numero decimal y: Conviertelo a entero, a string, muestra ambos resultados
-print("Hola, yo convierto tu numero decimal a entero y a string.")
+"""print("Hola, yo convierto tu numero decimal a entero y a string.")
 tu_decimal=float(input("Dame un numero decimal: "))
 nuevo_entero=int(tu_decimal)
 nuevo_string=str(tu_decimal)
-print(f"Tu decimal: {tu_decimal} --> Entero: {nuevo_entero}, String: \"{nuevo_string}\"")
+print(f"Tu decimal: {tu_decimal} --> Entero: {nuevo_entero}, String: \"{nuevo_string}\"")"""
