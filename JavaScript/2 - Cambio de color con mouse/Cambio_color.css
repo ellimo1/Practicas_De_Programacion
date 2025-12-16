@@ -1,0 +1,10 @@
+.cambio{
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+.cambio:hover{
+    background-color: green;
+    color: white;
+
+}
